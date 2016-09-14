@@ -1,3 +1,9 @@
+/*
+    Elaborado por: Manuel Vega y Jose Luis Alarez
+    Fecha: 30 de agosto de 2016
+*/
+
+
 #include<stdio.h>
 #include <time.h>
 

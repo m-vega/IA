@@ -2,21 +2,16 @@
 
 int siguienteRenglon(int actual, int m[][5]){
 	
-	int i, j, k=1;
+	int i, j;
 	
 	for(i=0; i<8 ;i++){
 		
-		for(j=0; (j<5) && (m[actual][j] != 0); j++){
+		for(j=0; m[actual][j] != 0; j++){
 
-	    	if(k==8)
-	    		k=1;
-
-	    	if(actual+k == m[actual][j])
-	        	return m[actual][j]-1;
+	    	if(i == m[actual][j])
+	        	return i;
 
 		}
-
-		k++;
 
 	}
 
